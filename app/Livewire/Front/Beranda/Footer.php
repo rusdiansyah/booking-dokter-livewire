@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Livewire\Front\Beranda;
+
+use App\Models\Setting;
+use Livewire\Component;
+
+class Footer extends Component
+{
+    public function render()
+    {
+        $setting = Setting::find(1);
+        return view('livewire.front.beranda.footer',compact('setting'));
+    }
+}
