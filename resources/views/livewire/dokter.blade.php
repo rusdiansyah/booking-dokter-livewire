@@ -45,7 +45,7 @@
                             <td>{{ $item->nama }}</td>
                             <td>{{ $item->jenis_kelamin=='L' ? 'Laki-laki' : 'Perempuan' }}</td>
                             <td>
-                                <img src="{{ asset($item->foto) }}" alt="" width="50">
+                                <img src="{{ asset('storage/'.$item->foto) }}" alt="" width="50">
                             </td>
                             <td>
                                 <button wire:click="edit({{ $item->id }})" data-toggle="modal"

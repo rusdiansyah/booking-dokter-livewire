@@ -7,6 +7,7 @@
 
     <title>{{ $title ?? config('app.name') }}</title>
     @include('components.layouts.style')
+    @include('components.layouts.script')
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
@@ -31,7 +32,7 @@
         </div>
         <x-layouts.footer></x-layouts.footer>
     </div>
-    @include('components.layouts.script')
+
 </body>
 
 </html>

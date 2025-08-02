@@ -45,7 +45,7 @@
                             <td>{{ $item->kategori_berita->nama }}</td>
                             <td>{{ $item->judul }}</td>
                             <td>
-                                <img src="{{ asset($item->gambar) }}" class="img-fluid img-circle" width="30">
+                                <img src="{{ asset('storage/'.$item->gambar) }}" class="img-fluid img-circle" width="30">
                             </td>
                             <td>
                                 <button wire:click="edit({{ $item->id }})" data-toggle="modal"

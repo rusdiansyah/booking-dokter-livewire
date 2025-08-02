@@ -11,7 +11,7 @@
         $x = App\Models\Setting::where('id',1)->first();
         if($x)
         {
-            $background = $x->logo_login;
+            $background = 'storage/'.$x->logo_login;
         }else{
             $background = '';
         }

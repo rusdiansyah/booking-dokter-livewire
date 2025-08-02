@@ -6,7 +6,7 @@
             $photo = Auth::user()->photo;
         @endphp
         @if ($logo_home)
-            <img src="{{ asset($setting->logo_home) }}" alt="{{ config('app.name') }}"
+            <img src="{{ asset('storage/'.$setting->logo_home) }}" alt="{{ config('app.name') }}"
                 class="brand-image img-circle elevation-3" style="opacity: .8">
         @else
             <img src="{{ asset('dist/img/AdminLTELogo.png') }}" alt="{{ config('app.name') }}"
@@ -20,7 +20,7 @@
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
                 @if ($photo)
-                    <img src="{{ url($photo) }}" class="img-circle elevation-2" alt="{{ Auth::user()->name }}">
+                    <img src="{{ asset('storage/'.$photo) }}" class="img-circle elevation-2" alt="{{ Auth::user()->name }}">
                 @else
                     <img src="{{ asset('dist/img/user2-160x160.jpg') }}" class="img-circle elevation-2"
                         alt="{{ Auth::user()->name }}">

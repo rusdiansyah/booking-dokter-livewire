@@ -17,25 +17,25 @@
             </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="/setting/identitas" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/setting/identitas" class="nav-link" wire:current="active">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Identitas</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/setting/favicon" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/setting/favicon" class="nav-link" wire:current="active">
                         <i class="far fa-circle nav-icon"></i>
                         <p>favicon</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/setting/logo_login" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/setting/logo_login" class="nav-link" wire:current="active">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Background Login</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/setting/logo_home" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/setting/logo_home" class="nav-link" wire:current="active">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Logo Home</p>
                     </a>
@@ -52,13 +52,13 @@
             </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="/user/role" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/user/role" class="nav-link" wire:current="active">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Role</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/user/user" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/user/user" class="nav-link" wire:current="active">
                         <i class="far fa-circle nav-icon"></i>
                         <p>User</p>
                     </a>
@@ -75,37 +75,37 @@
             </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="/klinik/poli" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/klinik/poli" class="nav-link" wire:current="active">
                         <i class="nav-icon fas fa fa-hotel"></i>
                         <p>Poli</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/klinik/dokter" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/klinik/dokter" class="nav-link" wire:current="active">
                         <i class="nav-icon fas fa fa-child"></i>
                         <p>Dokter</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/klinik/jadwalpraktek" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/klinik/jadwalpraktek" class="nav-link" wire:current="active">
                         <i class="nav-icon fas fa fa-calendar"></i>
                         <p>Jadwal Praktek</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/klinik/layanan" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/klinik/layanan" class="nav-link" wire:current="active">
                         <i class="nav-icon fas fa fa-heartbeat"></i>
                         <p>Layanan</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/klinik/statusbooking" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/klinik/statusbooking" class="nav-link" wire:current="active">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Status Booking</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/klinik/booking" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/klinik/booking" class="nav-link" wire:current="active">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Booking</p>
                     </a>
@@ -122,7 +122,7 @@
             </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="/berita/kategori" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/berita/kategori" class="nav-link" wire:current="active">
                         <i class="nav-icon fas fa fa-tag"></i>
                         <p>Kategori</p>
                     </a>
@@ -130,7 +130,7 @@
             </ul>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="/berita/list" class="nav-link" wire:current="active">
+                    <a  wire:navigate href="/berita/list" class="nav-link" wire:current="active">
                         <i class="nav-icon fas fa fa-list"></i>
                         <p>List</p>
                     </a>

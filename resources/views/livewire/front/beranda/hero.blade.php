@@ -3,7 +3,7 @@
         <div class="hero-wrapper">
             @if ($setting)
                 <div class="hero-image">
-                    <img src="{{ asset($setting->logo_login) }}" alt="{{ config('app.name') }}" class="img-fluid">
+                    <img src="{{ asset('storage/'.$setting->logo_login) }}" alt="{{ config('app.name') }}" class="img-fluid">
                 </div>
             @else
                 <div class="hero-image">

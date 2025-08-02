@@ -13,7 +13,7 @@
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="doctor-card">
                         <div class="doctor-image">
-                            <img src="{{ asset($j->dokter->foto) }}" alt="{{ $j->dokter->nama }}" class="img-fluid">
+                            <img src="{{ asset('storage/'.$j->dokter->foto) }}" alt="{{ $j->dokter->nama }}" class="img-fluid">
                             @if ($j->isActive)
                                 <div class="availability-badge online">Ada</div>
                             @else

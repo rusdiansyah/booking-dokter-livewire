@@ -42,7 +42,7 @@
                             <td>{{ $data->firstItem() + $loop->index }}</td>
                             <td>{{$item->nama}}</td>
                             <td>
-                                <img src="{{ asset($item->gambar) }}" alt="" width="50">
+                                <img src="{{ asset('storage/'.$item->gambar) }}" alt="" width="50">
                             </td>
                             <td>
                                 @if ($item->is_active)

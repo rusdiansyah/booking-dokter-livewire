@@ -17,7 +17,7 @@
                         <div class="service-content">
                             <h3>{{ $lay->nama }}</h3>
                             <p>{{ $lay->keterangan }}</p>
-                            <img class="img-layanan" src="{{ asset($lay->gambar) }}" alt="" width="570">
+                            <img class="img-layanan" src="{{ asset('storage/'.$lay->gambar) }}" alt="" width="570">
                         </div>
                     </div>
                 </div>

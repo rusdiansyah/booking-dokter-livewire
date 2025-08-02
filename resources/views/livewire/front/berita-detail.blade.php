@@ -32,7 +32,7 @@
                     <div class="row gy-4">
                         <div class="col-lg-6 aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
                             <div class="department-image">
-                                <img src="{{ asset($data->gambar) }}" alt="{{ $data->judul }}"
+                                <img src="{{ asset('storage/'.$data->gambar) }}" alt="{{ $data->judul }}"
                                     class="img-fluid rounded-lg">
                             </div>
                         </div>

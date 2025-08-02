@@ -25,7 +25,7 @@
                 @enderror
             </div>
             @if ($photo_old)
-                <img src="{{ url($photo_old) }}" style="width: 350px;">
+                <img src="{{ asset('storage/'.$photo_old) }}" style="width: 350px;">
             @endif
         </div>
 

@@ -25,7 +25,7 @@
                         <div class="doctor-card">
                             <div class="doctor-image">
                                 @if ($item->foto)
-                                <img src="{{ asset($item->foto) }}" alt="{{ $item->nama }}" class="img-fluid">
+                                <img src="{{ asset('storage/'.$item->foto) }}" alt="{{ $item->nama }}" class="img-fluid">
                                 @else
                                 <img src="assets/img/health/staff-3.webp" alt="{{ $item->nama }}" class="img-fluid">
                                 @endif

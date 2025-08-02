@@ -26,7 +26,7 @@
                     <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
                         <div class="department-card">
                             <div class="department-image">
-                                <img src="{{ asset($p->gambar) }}" alt="{{ $p->nama }}" class="img-fluid">
+                                <img src="{{ asset('storage/'.$p->gambar) }}" alt="{{ $p->nama }}" class="img-fluid">
                             </div>
                             <div class="department-content">
                                 <div class="department-icon">

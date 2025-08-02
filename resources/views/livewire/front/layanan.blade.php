@@ -34,7 +34,7 @@
                                     <div class="service-details">
                                         <h5>{{ $item->nama }}</h5>
                                         <p>{{ $item->keterangan }}</p>
-                                        <img class="img-layanan" src="{{ asset($item->gambar) }}" alt="" width="320">
+                                        <img class="img-layanan" src="{{ asset('storage/'.$item->gambar) }}" alt="" width="320">
                                     </div>
                                 </div>
                             </div>
