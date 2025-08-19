@@ -56,6 +56,7 @@ class Booking extends Component
             })
             ->with('status_booking', 'jadwal_praktek', 'user')
             // ->get();
+            ->orderBy('created_at','desc')
             ->paginate($this->paginate);
         // dd($data);
         return view('livewire.booking', compact('data'));

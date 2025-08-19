@@ -9,6 +9,8 @@
     <meta name="keywords" content="">
 
     @include('components.layouts.front.style')
+    @include('components.layouts.front.script')
+    @livewireStyles
 </head>
 
 <body class="index-page">
@@ -24,8 +26,7 @@
 
     @livewire('front.beranda.footer')
 
-    @include('components.layouts.front.script')
-
+    @livewireScripts
 </body>
 
 </html>

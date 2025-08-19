@@ -9,6 +9,7 @@
     @include('components.layouts.style')
     @include('components.layouts.script')
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    @livewireStyles
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -32,7 +33,7 @@
         </div>
         <x-layouts.footer></x-layouts.footer>
     </div>
-
+    @livewireScripts
 </body>
 
 </html>
