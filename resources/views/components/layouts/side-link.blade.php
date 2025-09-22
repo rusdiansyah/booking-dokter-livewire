@@ -122,8 +122,16 @@
             </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
+                    <a  wire:navigate href="/berita/sosialmedia" class="nav-link" wire:current="active">
+                        <i class="nav-icon fa fa-share-alt"></i>
+                        <p>Sosial Media</p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav nav-treeview">
+                <li class="nav-item">
                     <a  wire:navigate href="/berita/kategori" class="nav-link" wire:current="active">
-                        <i class="nav-icon fas fa fa-tag"></i>
+                        <i class="nav-icon fa fa-tag"></i>
                         <p>Kategori</p>
                     </a>
                 </li>

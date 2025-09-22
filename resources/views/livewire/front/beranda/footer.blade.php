@@ -13,10 +13,12 @@
 
                 </div>
                 <div class="social-links d-flex mt-4">
-                    <a href="#"><i class="bi bi-twitter-x"></i></a>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    @php
+                        $sosialmedia = App\Models\SosialMedia::all();
+                    @endphp
+                    @foreach ($sosialmedia as $sm)
+                    <a href="{{ $sm->url }}"><i class="{{ $sm->icon }}"></i></a>
+                    @endforeach
                 </div>
             </div>
 

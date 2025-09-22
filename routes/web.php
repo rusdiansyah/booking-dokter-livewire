@@ -24,6 +24,7 @@ use App\Livewire\Poli;
 use App\Livewire\Register;
 use App\Livewire\Role;
 use App\Livewire\Setting;
+use App\Livewire\SosialMedia;
 use App\Livewire\StatusBooking;
 use App\Livewire\User;
 use App\Livewire\User\Booking as UserBooking;
@@ -65,6 +66,7 @@ Route::group(['middleware' => ['auth', 'checkrole:Admin']], function () {
     Route::get('klinik/statusbooking',StatusBooking::class)->name('klinik.statusbooking');
     Route::get('klinik/booking',Booking::class)->name('klinik.booking');
 
+    Route::get('berita/sosialmedia',SosialMedia::class)->name('berita.sosialmedia');
     Route::get('berita/kategori',KategoriBerita::class)->name('berita.kategori');
     Route::get('berita/list',Berita::class)->name('berita.list');
 });
